@@ -1,0 +1,4 @@
+#: header.php
+#, php-format
+msgid "Hey <a href=\"%1$s\" title=\"Edit your profile\">%2$s</a>"
+msgstr "Salut <a href=\"%1$s\" title=\"Modifier ton profil\">%2$s</a>&nbsp;!"

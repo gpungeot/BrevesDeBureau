@@ -1,0 +1,557 @@
+/*
+Theme Name: Brown Rush
+Theme URI: http://gotchance.com/
+Description: Brown Rush is a two-column, widget-ready theme by <a href="http://gotchance.com/">Shrihari</a>.
+Version: 1.0
+Author: Shrihari
+*/
+* { margin: 0; }
+body
+{
+	margin-top: 5px;
+	font-family: Verdana, Tahoma;
+}
+a
+{
+	color: #4E7DCD;
+	text-decoration: underline;
+}
+a:hover
+{
+	color: #000;
+}
+img, img a
+{
+	border: 0;
+}
+#wrap
+{
+	/*width: 900px;*/
+	min-width: 1024px;
+	max-width: 1280px;
+}
+
+#header
+{
+	text-align: right;
+	padding-top: 0px;
+	padding-right: 35px;
+	padding-bottom: 0px;
+	/*width: 865px;*/
+	width: 96%;
+	height: 52px;
+}
+
+#header span.blog_title
+{
+	float: left;
+	margin-left: 20px;
+	font-size: 40px;
+	color: #484647;
+}
+#header span.blog_title a { color: #484647; text-decoration: none; }
+
+#header_below_left
+{
+	background: url(images/content_top_left.jpg) no-repeat;
+	/*width: 900px;*/
+	min-width: 900px;
+	max-width: 1280px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+#header_below_right
+{
+	background: url(images/content_top_right.jpg) no-repeat;
+	background-position: right;
+	/*width: 900px;*/
+	min-width: 900px;
+	max-width: 1280px;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+}
+
+#footer_left
+{
+	background: url(images/content_bot_left.jpg) no-repeat;
+	/*width: 860px;*/
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	color: #CCC;
+	text-align: left;
+}
+#footer_right
+{
+	background: url(images/content_bot_right.jpg) no-repeat;
+	background-position: right;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	font-size: 11px;
+	color: #CCC;
+	text-align: left;
+}
+#footer a { color: #DDD; }
+#footer a:hover { color: #FFF; }
+
+#menu ul 
+{ 
+	margin-top: 21px;
+	list-style: none; 
+}
+
+#menu ul li{
+	float: left;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+	background: url(images/menu-in-right.jpg) no-repeat right;
+	color: #CCC;
+}
+#menu ul li a{
+	display: block;
+	padding: 9px 20px 10px;
+	text-decoration: none;
+	background: url(images/menu-in-left.jpg) no-repeat left;
+	color: #DDD;
+}
+
+#menu ul li:hover{
+	float: left;
+	margin: 0 0 0 10px;
+	font-size: 12px;
+	font-weight: bold;
+	background: url(images/menu-right.jpg) no-repeat right;
+	color: #FFF;
+}
+#menu ul li a:hover{
+	display: block;
+	padding: 9px 20px 10px;
+	text-decoration: none;
+	background: url(images/menu-left.jpg) no-repeat left;
+	color: #FFF;
+}
+
+
+ul.obtabs {
+	font-size: 12px;
+	font-weight: bold;
+	letter-spacing: 1px;
+    	list-style: none;
+    	padding: 0;
+	margin: 20px 0 0 0;
+}
+
+ul.obtabs li {
+    float: left;
+    display: block;
+    height: 34px;
+    padding-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    background: url(images/menu-in-right.jpg) 100% 0 no-repeat;
+    white-space: nowrap;
+
+}
+
+ul.obtabs span {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+    background: url(images/menu-in-left.jpg) no-repeat;
+}
+
+ul.obtabs li.active {
+    float: left;
+    display: block;
+    height: 34px;
+    padding-right: 15px;
+    margin-left: 15px;
+    position: relative;
+    background: url(images/menu-right.jpg) 100% 0 no-repeat;
+    white-space: nowrap;
+
+}
+
+ul.obtabs span.active {
+    height: 34px;
+    line-height: 34px;
+    padding-left: 15px;
+    background: url(images/menu-left.jpg) no-repeat;
+}
+
+
+
+html>body ul.obtabs span {
+    display: block;
+}
+
+ul.obtabs a 
+{
+    	color: #F1F1F1;
+	text-decoration: none;
+}
+ul.obtabs a:hover
+{
+    	color: #FFF;
+}
+
+#content
+{
+	text-align: left;
+	margin: 0;
+	background: #484647;
+}
+
+#left
+{
+	font-size: 17px;
+	line-height: 1.8em;
+	float: left;
+	/*width: 600px;*/
+	width: 67%;
+	padding: 0 0 20px 30px;
+}
+#left img, #left img a
+{
+	margin: 5px;
+	padding: 3px;
+	border: 0px solid #CCC;
+	max-width: 98%;
+}
+#left ul, #left blockquote
+{
+	margin-bottom: 0;
+}
+#right
+{
+	font-size: 11px;
+	line-height: 1.8em;
+	float: left;
+	/*width: 224px;*/
+	width: 27%;
+	padding: 0 0 15px 15px;
+}
+
+/* Tomtom hack : ptop, pmid, pbot, ltop, lmid, lbot*/
+.ptop_left
+{
+	background: url(images/post-top_left.jpg) no-repeat;
+	/*width: 610px;*/
+	height: 17px;
+}
+.ptop_right
+{
+	background: url(images/post-top_right.jpg) no-repeat;
+	background-position: right;
+	/*width: 610px;*/
+	height: 17px;
+}
+.pmid_left
+{
+	background: url(images/post-mid_left.jpg) repeat-y;
+	/*width: 580px;*/
+	margin: 0;
+}
+.pmid_right
+{
+	background: url(images/post-mid_right.jpg) repeat-y;
+	background-position: right;
+	/*width: 580px;*/
+	margin: 0;
+}
+.pbot_left
+{
+	background: url(images/post-bot_left.jpg) no-repeat;
+	/*width: 610px;*/
+	height: 21px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+.pbot_right
+{
+	background: url(images/post-bot_right.jpg) no-repeat;
+	background-position: right;
+	/*width: 610px;*/
+	height: 21px;
+	margin-top: 0px;
+	margin-bottom: 30px;
+}
+
+
+.ltop_left
+{
+	background: url(images/ltop_left.jpg) no-repeat;
+	/*width: 240px;*/
+	height: 16px;
+}
+.ltop_right
+{
+	background: url(images/ltop_right.jpg) no-repeat;
+	background-position: right;
+	/*width: 240px;*/
+	height: 16px;
+}
+.lmid_left
+{
+	background: url(images/lmid_left.jpg) repeat-y;
+	/*width: 220px;*/
+}
+.lmid_right
+{
+	background: url(images/lmid_right.jpg) repeat-y;
+	background-position: right;
+	padding:0 20px;
+	/*width: 220px;*/
+}
+.lmid h2
+{
+	font-weight: normal;
+	margin: 0;
+	font-size: 18px;
+	padding-bottom: 5px;
+}
+.lbot_left
+{
+	background: url(images/lbot_left.jpg) no-repeat;
+	/*width: 240px;*/
+	height: 18px;
+	margin-bottom: 30px;
+}
+.lbot_right
+{
+	background: url(images/lbot_right.jpg) no-repeat;
+	background-position: right;
+	/*width: 240px;*/
+	height: 18px;
+	margin-bottom: 30px;
+}
+
+
+
+.post
+{
+	/*padding-top: 5px;*/
+	padding: 5px 30px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.post p
+{
+	margin: 0;
+}
+.post-date {
+	width: 45px;
+	height: 49px;
+	float:left;
+	background: url(images/calendar.jpg) no-repeat;
+}
+.post-month {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	text-align: center;
+	display:block;
+	line-height: 11px;
+	padding-top: 2px;
+	margin-left: -3px;
+}
+.post-day {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #999999;
+	text-align: center;
+	display:block;
+	line-height: 18px;
+	padding-top: 7px;
+	margin-left: -3px;
+}
+.post-head
+{	
+	padding-bottom: 5px;
+	margin-bottom: 5px;
+
+}
+.post-head .title
+{
+	margin-top: -5px;
+	padding-bottom: 5px;
+	margin-left: 50px;
+	border-bottom: 1px solid #CCC;
+}
+.post-head div.title, .post-head div.title a
+{
+	font-size: 22px;
+	color: #484647;
+	line-height: 1.3em;
+	text-decoration: none;
+}
+.post-head div.title a:hover
+{
+	color: #4E7DCD;
+}
+.post-head .posted
+{
+	font-size: 11px;
+	margin-left: 8px;
+	float: left;
+}
+
+.post-head span.comments
+{
+	float: right;
+	font-size: 11px;
+}
+.post-head span.comments a
+{
+	background: url(images/comments.png) left no-repeat;
+	padding-left: 20px;
+	padding-bottom: 1px;
+	display: block;
+	text-decoration: none;
+}
+
+
+.post-entry
+{
+	text-align: justify;
+}
+.post-bot
+{	
+	border-top: 1px solid #ccc;
+	padding: 5px 5px 0 5px;
+	margin-top: 5px;
+}
+.post-bot span.posted
+{
+	margin-top: 5px;
+	float: left;
+	font-size: 11px;
+	line-height: 1.3em;
+	text-decoration: none;
+}
+
+#right ul
+{
+	font-size: 12px;
+	width: 220px;
+	margin: 0;
+	padding: 5px 5px;
+	list-style-type: none;
+	list-style-image: none;
+}
+#right ul li, #right .sidebody ul li a
+{
+	/*background: url(images/bullet.png) top no-repeat left;*/
+	background-position: 0 1px; 
+	margin-bottom: 2px;
+	padding-left: 0px;
+}
+
+
+#left .comm-top
+{
+	background: url(images/comm-top.jpg) no-repeat bottom;
+	width: 550px;
+	height: 19px;
+	margin: 0;
+	padding: 0;
+}
+#left .comm-mid
+{
+	margin: 0px;
+	background: url(images/comm-mid.jpg) repeat-y;
+	width: 550px;
+}
+#left .comm-mid p
+{	
+	text-align: left;
+	font-size: 11px;
+	margin: 0 20px;
+}
+#left .comm-bot
+{
+	background: url(images/comm-bot.jpg) no-repeat top;
+	padding-top: 20px;
+	width: 550px;
+	margin: 0;
+}
+#left .comm-bot p
+{
+	text-align: left;
+	font-size: 11px;
+	margin-left: 17px;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+#left .comm-title
+{
+	margin-top: 0px;
+	margin-bottom: 10px;
+	font-size: 20px;
+	color: #437DCD;
+	line-height: 1.3em;
+	text-decoration: none;
+}
+
+.nav-link, .nav-link a { color: #CCC; margin: 10px; }
+.nav-link a:hover { color: #FFF; }
+
+#tagcloudflash
+{
+    text-align: center;
+}
+
+.widget_categories,
+.widget_archive
+{
+    overflow-y: scroll;
+    overflow-x:hidden;
+}
+
+.widget_categories
+{
+    max-height: 400px;
+}
+
+.widget_archive
+{
+    max-height: 200px;
+}
+
+#left .avatar
+{
+float: right;
+margin-top: -64px;
+}
+
+div#right
+{
+	text-align: justify;
+}
+
+#user_info_header
+{
+    font-size:14px;
+    line-height:80px;
+}
+
+#searchsubmit
+{
+    float: right;
+}
+
+#s
+{
+    width: 140px;
+}
+
+.screen-reader-text
+{
+    display: none;
+}
